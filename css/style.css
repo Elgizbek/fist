@@ -127,11 +127,23 @@ font-family: 'Roboto', sans-serif;
  font-family: 'Roboto', sans-serif;
 }
 .basket{
+    display: flex;
+    justify-content: end;
  background-color: #F4511F;
  padding: 4px;
  border-radius: 5%;
+
+}
+.naruto{
  display: flex;
- justify-content: end;
+ justify-content: center;
+}
+.bton{
+ display: flex;
+ align-items: center;
+ font-family: 'Philosopher', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width:755px) {
@@ -141,19 +153,27 @@ font-family: 'Roboto', sans-serif;
        flex-wrap: wrap;
     }
     .burger{
-     padding: 40px 0px;
+     padding: 20px 0px;
     }
     .section1{
      padding: 30px 0px;
     }
     .burger3{
-     padding: 60px 0px;
+     padding: 90px 0px;
     }
     .burger1{
-     padding: 40px 0px;
+     padding: 20px 0px;
+    }
+    .section1{
+     margin: 60px 0px;
     }
 }
-@media screen and (max-width:560px) {
+@media screen and (max-width:676px) {
+    .section1{
+     margin: 120px 0px;
+    }
+}
+@media screen and (max-width:514px) {
   .section1{
    width: 600px;
   }
@@ -161,8 +181,10 @@ font-family: 'Roboto', sans-serif;
    width: 590px;
   }
   .section2{
-   width: 600px;
+    width: 40%;
    flex-wrap: wrap;
   }
-
+  .section1{
+    margin: 90px 0px;
+   }
 }
